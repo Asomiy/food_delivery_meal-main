@@ -1,0 +1,25 @@
+Analyzing food_delivery_meal...                                 
+
+  error • A value of type 'TimezoneInfo' can't be returned from the method 'timeZone' because it has a return type of 'Future<String>' • lib/common/globs.dart:75:14 • return_of_invalid_type
+   info • Missing type annotation • lib/common/service_call.dart:49:10 • strict_top_level_inference
+warning • The value of the local variable 'media' isn't used • lib/view/login/login_view.dart:27:9 • unused_local_variable
+warning • Unused import: 'new_password_view.dart' • lib/view/login/rest_password_view.dart:9:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/view/menu/item_details_view.dart:110:47 • avoid_print
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/menu/item_details_view.dart:187:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/add_card_view.dart:59:43 • deprecated_member_use
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/view/more/add_card_view.dart:138:19 • deprecated_member_use
+warning • The value of the field '_controller' isn't used • lib/view/more/change_address_view.dart:18:24 • unused_field
+   info • Missing type annotation • lib/view/more/change_address_view.dart:43:3 • strict_top_level_inference
+   info • Unnecessary constructor invocation • lib/view/more/change_address_view.dart:89:33 • prefer_collection_literals
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/checkout_view.dart:168:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/checkout_view.dart:290:51 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/inbox_view.dart:136:51 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/my_order_view.dart:193:53 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/my_order_view.dart:259:51 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/my_order_view.dart:312:51 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/notification_view.dart:108:51 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/payment_details_view.dart:89:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/payment_details_view.dart:131:53 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/more/payment_details_view.dart:183:53 • deprecated_member_use
+
+21 issues found. (ran in 1.1s)
